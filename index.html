@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="info-imagem">
+      <div class="info">
+        <header class="">
+          <img src="./img/logo.svg" alt="" />
+        </header>
+        <!---->
+        <div class="form-container">
+          <div class="titulo">
+            <div class="titulo-img-h2">
+              <img src="./img/log-in.svg" alt="" />
+              <h2 class="login">Faça seu login</h2>
+            </div>
+            <p class="descricao">Entre com suas informações de cadastro.</p>
+          </div>
+          <form action="">
+            <label class="form-label" for="email">E-mail</label>
+            <input
+              id="email"
+              class="form-input"
+              type="text"
+              placeholder="Digite seu e-mail"
+              autofocus
+              required
+            />
+            <!---->
+            <div class="formSenha">
+              <div class="formSenha-labelInput">
+                <label class="form-label" for="senha">Senha</label>
+                <input
+                  id="senha"
+                  class="form-input"
+                  type="password"
+                  placeholder="Digite sua senha"
+                  required
+                />
+              </div>
+              <span class="iconEye"
+                ><img width="20" height="20" src="./img/eye.svg" alt=""
+              /></span>
+            </div>
+          </form>
+          <div class="lembreme-esqueci">
+            <div class="lembreme-input">
+              <label class="checkbox" for="lembreme"
+                >Lembre-me
+                <input
+                  class="checkboxInput"
+                  type="checkbox"
+                  name="lembreme"
+                  id="lembreme"
+                />
+                <div class="alternativeCheckBox"></div>
+              </label>
+            </div>
+            <a href="#"><p>Esqueci minha senha</p></a>
+          </div>
+          <button class="btn">Entrar</button>
+          <p class="registrar">
+            Não tem uma conta? <a id="registrese" href="#">Registre-se</a>
+          </p>
+        </div>
+      </div>
+      <div class="imagem-container">
+        <img
+          class="imagem"
+          src="./img/side-image-2x.jpg"
+          alt="um jipe parado com uma barraca no teto"
+        />
+      </div>
+    </div>
+  </body>
+</html>
